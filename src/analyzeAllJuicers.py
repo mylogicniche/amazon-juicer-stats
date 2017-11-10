@@ -192,7 +192,7 @@ for color, p in percentJuicerByColor:
 
 fig, ax = plt.subplots()
 fig.canvas.draw()
-ax.bar(np.arange(len(favColorbyAvgPrice)), [x[1] for x in favColorbyAvgPrice])d
+ax.bar(np.arange(len(favColorbyAvgPrice)), [x[1] for x in favColorbyAvgPrice])
 ax.set_xticks(np.arange(len(favColorbyAvgPrice)))
 ax.set_xticklabels((x[0] for x in favColorbyAvgPrice), rotation='vertical')
 plt.xlabel('Colors')
