@@ -7,7 +7,7 @@ asinList = {
     "citrus": ['B008BBCZ3K', 'citrus juicer']
 }
 
-amazon = AmazonAPI('AKIAIM5AOOMVJVPWCCSQ', "kupGH8IrcXAjb6NQF3Ns+MZAHT0yrMnnvApNd2ru", "adthomas-20")
+amazon = AmazonAPI('', "", "")
 
 total_device = 0
 juicerDict = {}
